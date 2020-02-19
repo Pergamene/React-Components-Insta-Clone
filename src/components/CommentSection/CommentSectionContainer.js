@@ -17,7 +17,7 @@ const CommentSection = props => {
   }
 
   const changeComment = event => {
-    updateComment({username: 'Bast', text: event.target.value});
+    updateComment({username: 'bast', text: event.target.value});
   }
 
   return (
